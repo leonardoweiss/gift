@@ -26,7 +26,7 @@ const textEl = document.querySelector('#text')
 const btnEl = document.querySelector('#btn')
 const btnEl2 = document.querySelector('#btn2')
 
-function digitText(text, element) {
+function digitText(text, element) { //git remote add origin https://github.com/leonardoweiss/gift.git
     if (btnEl) {
         btnEl.disabled = true
     }
