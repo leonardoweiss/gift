@@ -60,6 +60,9 @@ function showMusics(){
         document.body.appendChild(a)
         a.addEventListener('click', () => {
             a.className = 'disabled'
+            if (a.innerHTML == 'Música 9') {
+                document.body.innerHTML = '<div id="init">Agora circule a primeira letra de cada música e leia o que formou.</div>'
+            }
         })
     })
 }
